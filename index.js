@@ -35,7 +35,7 @@ app.get('/', (req, res) => {
   
     const mailOptions = {
       from: email,
-      to: "ajikyasharma24@gmail.com",
+      to: "ivatmover@gmail.com",
       subject: "New Form Submission",
       text: `Name: ${username}\nEmail: ${email}\nPhone: ${phone}\nCompany Name: ${companyName}`,
     };
