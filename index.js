@@ -39,6 +39,7 @@ app.get('/', (req, res) => {
       subject: "New Form Submission",
       text: `Name: ${username}\nEmail: ${email}\nPhone: ${phone}\nCompany Name: ${companyName}`,
     };
+    
   
     try {
       await transporter.sendMail(mailOptions);
